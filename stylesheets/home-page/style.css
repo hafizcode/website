@@ -1,20 +1,10 @@
-/*
+
 body {
-    background:linear-gradient(0deg, rgba(34, 15, 26, 0.788), rgba(36, 25, 31, 0.726)), url(../../resources/background-images/pexels-negative-space-97077.jpg);
-    background: url(../../resources/background-images/space.jpg);
+    background:linear-gradient(45deg, rgba(0, 41, 65, 0.63), rgba(46, 0, 25, 0.87)), url(../../resources/background-images/space.jpg);
+    /* background: url(../../resources/background-images/space.jpg); */
     background-size: cover;
     height: 100vh;
 }
-*/
-
-.background-image {
-    background: linear-gradient(0deg, rgba(16, 20, 16, 0.753), rgba(20, 26, 19, 0.671)), url(../../resources/background-images/space.jpg);
-    background-size: cover;
-    height: 100vh;
-    /* background-repeat: repeat; */
-    /* filter: blur(2px); */
-}
-
 
 .outter-box {
     width: 97%;
@@ -24,7 +14,6 @@ body {
     margin: 0 auto;
     flex-flow: row wrap;
 }
-
 
 .link {
     display: flex;
@@ -51,7 +40,7 @@ body {
     font-size: 1.7rem;
     /* text-shadow: 2px 2px 4px rgb(0, 0, 0); */
     font-weight: 700;
-    padding: 55px 10px;
+    /* padding: 55px 10px; */
 }
 
 
@@ -70,8 +59,14 @@ header, h1, h3{
         font-size: 1rem;
     }
 
-    .background-image {
-        height: 200vh;
+    body {
+        background:linear-gradient(45deg, rgba(0, 41, 65, 0.63), rgba(46, 0, 25, 0.87)), url(../../resources/background-images/space.jpg);
+        /* background: url(../../resources/background-images/space.jpg); */
+        background-size: cover;
+        height: auto;
+        background-repeat: no-repeat;
     }
+    
+
 
 }
