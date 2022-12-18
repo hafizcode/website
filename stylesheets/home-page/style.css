@@ -63,7 +63,7 @@ header, h1, h3{
         background:linear-gradient(45deg, rgba(0, 41, 65, 0.63), rgba(46, 0, 25, 0.87)), url(../../resources/background-images/space.jpg);
         /* background: url(../../resources/background-images/space.jpg); */
         background-size: cover;
-        height: 150vh;
+        height: 125vh;
         background-repeat: no-repeat;
     }
     
